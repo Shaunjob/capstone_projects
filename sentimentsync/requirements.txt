@@ -1,0 +1,9 @@
+streamlit
+pandas
+scikit-learn
+scipy
+plotly
+seaborn
+matplotlib
+google-generativeai
+typing-extensions
