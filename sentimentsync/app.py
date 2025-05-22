@@ -16,7 +16,7 @@ st.title("SentimentSync: Compare Sentiment Analysis Methods")
 
 # Brief Description
 st.markdown("""
-**SentimentSync** is a powerful benchmarking tool that lets you compare the performance and agreement of popular sentiment analysis methods—**VADER**, **TextBlob**, **Gemini**, and **OpenAI**—on your own text inputs.  
+**SentimentSync** is a powerful benchmarking tool that lets you compare the performance and agreement of popular sentiment analysis methods—**VADER**, **TextBlob**, and **Gemini** —on your own text inputs.  
 Analyze sentence-level sentiments, visualize intensity scores, explore pairwise correlations and agreement rates, and dive deep into confusion matrices and benchmarking metrics.  
 Ideal for data scientists, NLP practitioners, and anyone evaluating sentiment AI!
 """)
