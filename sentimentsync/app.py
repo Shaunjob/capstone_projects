@@ -28,16 +28,16 @@ texts = []
 text_input = st.text_area("Enter text (one sentence per line)", height=200)
 texts = [line.strip() for line in text_input.strip().split('\n') if line.strip()]
 
-methods = st.sidebar.multiselect("Select methods to compare", ["VADER", "TextBlob", "Gemini"])
+methods = st.multiselect("Select methods to compare", ["VADER", "TextBlob", "Gemini"])
 # Gemini API Key and Model Selection
 if "Gemini" in methods:
-    gemini_key = st.sidebar.text_input("Enter Gemini API Key", type="password")
+    gemini_key = st.text_input("Enter Gemini API Key", type="password")
 
     gemini_models = ["gemini-1.5-flash", "gemini-pro", "gemini-1.5-pro-latest", "gemini-vision", "Other"]
-    selected_gemini_model = st.sidebar.selectbox("Select Gemini Model", gemini_models)
+    selected_gemini_model = st.selectbox("Select Gemini Model", gemini_models)
 
     if selected_gemini_model == "Other":
-        custom_model = st.sidebar.text_input("Enter custom Gemini model name")
+        custom_model = st.text_input("Enter custom Gemini model name")
         gemini_model = custom_model
     else:
         gemini_model = selected_gemini_model
@@ -46,7 +46,7 @@ else:
     gemini_model = None
 
 # Analyze Button
-if st.sidebar.button("Analyze"):
+if st.button("Analyze"):
     if not texts:
         st.error("Please enter or upload at least one sentence.")
     elif not methods:
