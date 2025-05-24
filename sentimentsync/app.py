@@ -21,6 +21,17 @@ Analyze sentence-level sentiments, visualize intensity scores, explore pairwise 
 Ideal for data scientists, NLP practitioners, and anyone evaluating sentiment AI!
 """)
 
+# Declaration on insity scaling
+st.subheader("How we scale sentiment intensity")
+st.latex(r"\text{Scaled Intensity} \;=\; e^{\,5\lvert\text{compound}\rvert} - 1")
+st.markdown("""
+* We take the absolute value to keep the magnitude positive.  
+* Multiply by 5 to stretch the curve.  
+* Subtract 1 to anchor the minimum at 0.  
+* Round to **3 dp** so the table stays tidy.
+""")
+
+
 # Input Section
 texts = []
 
@@ -215,3 +226,13 @@ if st.button("Analyze"):
 
             else:
                 st.info("Only one method selected. Comparison not applicable.")
+
+# Footer
+st.markdown("""
+<hr style="border: 1px solid #ccc;" />
+
+<div style="text-align: center;">
+    Created by: <strong>Snehashish</strong> |
+    <a href="https://github.com/Shaunjob/capstone_projects/tree/main/sentimentsync" target="_blank">GitHub - Contribute Here</a>
+</div>
+""", unsafe_allow_html=True)
