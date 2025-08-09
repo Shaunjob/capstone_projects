@@ -17,6 +17,17 @@ Features include:
 - Gemini model selection with validation
 - Interactive plots, correlation matrices, confusion matrices, and more
 
+### 🎬 [movie_data_analysis_using_dbt](./movie_data_analysis_using_dbt)
+**Domain:** Data Engineering | DBT | Snowflake | AWS S3  
+A complete data pipeline project to ingest, store, transform, and analyze the **MovieLens 20M dataset** using DBT, Snowflake, and AWS S3.  
+Features include:
+- Dataset ingestion from local to AWS S3
+- Automated Snowflake warehouse, schema, and table creation
+- Bulk data loading from S3 to Snowflake
+- DBT transformations for clean, analytics-ready tables
+- Modular, version-controlled SQL transformation workflows
+- Fully reproducible setup instructions for developers
+
 ---
 
 ## 🚀 Getting Started
