@@ -36,6 +36,3 @@ The project showcases real-world data engineering practices such as dynamic inge
 - gold/ # Star schema and analytics-ready data
 - notebooks/ # Databricks notebooks for ingestion & transformations
 - DLT ── dltPipeline.py/ # Lakeflow Scripts
-
-## Project Structure
-
