@@ -28,4 +28,13 @@ The project showcases real-world data engineering practices such as dynamic inge
 ---
 
 ## Project Structure
+airline_analytics_medallion_architecture.dbc
+│
+├──  setup/ # To setup initial project
+├── raw/ # Landing zone for raw CSV files
+├── bronze/ # Ingested and minimally transformed data
+├── silver/ # Cleansed, conformed, and SCD-applied data
+├── gold/ # Star schema and analytics-ready data
+├── notebooks/ # Databricks notebooks for ingestion & transformations
+└── DLT ── dltPipeline.py/ # Lakeflow Scripts
 

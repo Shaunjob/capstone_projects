@@ -28,6 +28,17 @@ Features include:
 - Modular, version-controlled SQL transformation workflows
 - Fully reproducible setup instructions for developers
 
+### ✈️ [airline_analytics_medallion_architecture](./airline_analytics_medallion_architecture)
+**Domain:** Data Engineering | Databricks | Lakehouse  
+A **Databricks Medallion Architecture project** built around airline analytics, showcasing modern data engineering practices and scalable pipeline design.  
+Features include:
+- Automated **dynamic data ingestion** with Delta Lake  
+- Implementation of the **Medallion Architecture** (Bronze → Silver → Gold)  
+- **Lakeflow Pipelines** usage for orchestration  
+- **Star Schema** modeling for analytical queries  
+- Handling of **Slowly Changing Dimensions (SCD Type 2)**  
+- Demonstrates **Databricks-native best practices** for real-world ETL  
+
 ---
 
 ## 🚀 Getting Started
