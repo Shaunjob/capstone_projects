@@ -12,6 +12,12 @@ This project explores an HR employee dataset to surface insights around workforc
 
 ---
 
+## 🗂️ Dataset
+
+The dashboard is built on `Data/HR_Data.csv`, an employee-level HR dataset containing fields such as Employee Name, Department, Position, Date of Birth, Date of Hire, Manager, Pay Rate, Performance Score, Marital Status, Race, Employment Status, Termination Reason, and Recruitment Source. This raw file is loaded into Power BI and shaped via Power Query before feeding the visuals on both dashboard pages.
+
+---
+
 ## 🖥️ Dashboard Pages
 
 ### 1. HR Analytics Overview
@@ -53,6 +59,7 @@ A searchable employee profile page for quick individual lookups.
 | File | Description |
 |------|-------------|
 | `HR_Dashboard.pbix` | Power BI project file (open in Power BI Desktop) |
+| `Data/HR_Data.csv` | Source dataset used to build the dashboard |
 | `01_overview_dashboard.jpg` | Screenshot — HR Analytics Overview page |
 | `02_employee_details.jpg` | Screenshot — Employee Details page |
 
@@ -60,10 +67,11 @@ A searchable employee profile page for quick individual lookups.
 
 ## 🚀 How to Use
 
-1. Download `HR_Dashboard.pbix`
-2. Open the file in **Power BI Desktop** (free download from Microsoft)
-3. Use the **Department** slicer to filter the overview page
-4. Switch to the **Employee Details** page and search for an employee by name to view their full profile
+1. Download `HR_Dashboard.pbix` and `Data/HR_Data.csv`, keeping the folder structure intact
+2. Open the `.pbix` file in **Power BI Desktop** (free download from Microsoft)
+3. If prompted to update the data source path, point it to your local copy of `Data/HR_Data.csv`
+4. Use the **Department** slicer to filter the overview page
+5. Switch to the **Employee Details** page and search for an employee by name to view their full profile
 
 ---
 
