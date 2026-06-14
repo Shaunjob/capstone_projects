@@ -82,7 +82,3 @@ A searchable employee profile page for quick individual lookups.
 - Replace the funnel chart with a horizontal bar chart for recruitment source clarity
 
 ---
-
-## 👤 Author
-
-Created as part of a data analytics portfolio project.
