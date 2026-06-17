@@ -73,7 +73,8 @@ Restaurants are isolated from the broader business table (`categories LIKE '%res
 
 ```
 .
-├── Restaurant_analysis_improved1.ipynb   # Full analysis notebook (SQL + Python)
+├── Restaurant_analysis.ipynb             # Full analysis notebook (SQL + Python)
+├── Restaurent_data_load.ipynb            # Data Load notebook (JSON + SQL + Python)
 ├── Restaurant_Success_Analysis.pptx      # Stakeholder-facing summary deck
 ├── yelp.db                               # SQLite database built from the Yelp Open Dataset (not included — see Setup)
 └── README.md
